@@ -1,11 +1,15 @@
 <script setup lang="ts">
-
+import ThreeTarget from "./components/ThreeTarget/index.vue";
 
 </script>
 
 <template>
-  111
+  <ThreeTarget></ThreeTarget>
 </template>
 
-<style scoped>
+<style>
+#app{
+  height: 100%;
+  width: 100%;
+}
 </style>
